@@ -2,7 +2,6 @@
 #define SUBSYSTEMS_HPP
 
 #include "drive_base.hpp"
-#include "outtake.hpp"
 
 // A copy of each subsystem on the robot, to be shared among the commands which
 // require them.

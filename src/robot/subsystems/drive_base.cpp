@@ -12,7 +12,7 @@ back_right_motor ( new CANTalon(CANBusIDs::BACK_RIGHT) ),
 robot_drive      ( new RobotDrive(front_left_motor, 
 	                              back_left_motor, 
 	                              front_right_motor, 
-	                              back_right_motor) {
+	                              back_right_motor) ) {
 
 	//Set the closed-loop PID's mode
 	front_left_motor->SetControlMode(CANSpeedController::kSpeed);
